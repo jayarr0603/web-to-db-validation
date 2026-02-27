@@ -34,11 +34,10 @@ https://vcr-qa.victra.com/"
 23. Select top 1000 rows
 24.Verify the 'Discepancyid' column if visible
 25. Verify if the 'Submission Count' column increments
-26. 
-
-
 
 ## Expected Result
 - Record exists in database
 - Submission count should increase
+
+# SQL Query
 
