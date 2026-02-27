@@ -1,6 +1,6 @@
-# Test Scenario: Optimus Web to DB Validation
+<img width="643" height="25" alt="image" src="https://github.com/user-attachments/assets/49afaf3f-4565-4e7b-8e69-220f0c600d48" /><img width="643" height="25" alt="image" src="https://github.com/user-attachments/assets/efa05104-488a-40c9-bec4-a7034a54c1d5" /># Test Scenario: Optimus Web to DB Validation
     ## Objective
-Validate that data entered in the web system is correctly saved in the database.
+Verify Submission Count increments for different filename uploads in VCR Database
 
 ## Preconditions
 - Web application is accessible
@@ -8,12 +8,37 @@ Validate that data entered in the web system is correctly saved in the database.
 - Database access available
 
 ## Test Steps
-1. Open the web application
-2. Enter test data in the form
-3. Submit the form
-4. Query the database for the inserted record
+1. "Log in to OPTIMUS Commission Reconcilation
+https://vcr-qa.victra.com/"
+2. Verify If Optimus Commission Reconciliation dashboards are visible
+3. Verify 'Reporting' tab is visible
+4. Click the 'Reporting' tab
+5. Verify if the user navigate to 'Reporting' tab
+6. Verify if the 'Upload' button is visible
+7. Click 'Upload' button
+8. Drag or drop the 'SendToVzDiscrepancies1' csv file
+9. Click 'Submit' button
+10. Verify the status of the upload
+11. Click again 'Upload" button
+12. Drag or drop the 'SentToVzDiscrepancies2' csv file
+13. Click 'Submit' button
+14. Verify the status of the upload
+15. Open Microsoft SQL server
+16. Input a Server name
+17. On Authentication drop-down menu select 'Microsoft Entra MFA'
+18. Click 'Connect'
+19. Expand 'Databases' folder
+20. Expand 'vcr' database
+21. Verify if the '[optimus].[SentToVzDiscrepancies]' table is visible
+22. Right click the '[optimus].[SentToVzDiscrepancies]' table
+23. Select top 1000 rows
+24.Verify the 'Discepancyid' column if visible
+25. Verify if the 'Submission Count' column increments
+26. 
+
+
 
 ## Expected Result
 - Record exists in database
-- Database values match the web input
+- Submission count should increase
 
