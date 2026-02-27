@@ -1,4 +1,4 @@
-<img width="643" height="25" alt="image" src="https://github.com/user-attachments/assets/49afaf3f-4565-4e7b-8e69-220f0c600d48" /><img width="643" height="25" alt="image" src="https://github.com/user-attachments/assets/efa05104-488a-40c9-bec4-a7034a54c1d5" /># Test Scenario: Optimus Web to DB Validation
+# Test Scenario: Optimus Web to DB Validation
     ## Objective
 Verify Submission Count increments for different filename uploads in VCR Database
 
