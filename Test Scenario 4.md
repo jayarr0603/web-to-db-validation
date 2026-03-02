@@ -29,3 +29,26 @@ Verify that changing the disposition to "File" is correctly reflected in the dbo
 
 ## Expected Result
 - The Uploaded file should in reflect in 'dbo.FiledDiscrepancyDetails' Table
+
+## SQL Query
+SELECT TOP (1000) [FiledDiscrepancyId]
+      ,[NoteId]
+      ,[CustomerName]
+      ,[Esn]
+      ,[Mtn]
+      ,[DeviceDescription]
+      ,[POSCode]
+      ,[PricePlan]
+      ,[CommissionedAmt]
+      ,[FinancedAmt]
+      ,[ContractTerm]
+      ,[CustomerTypeCode]
+      ,[CustomerAccountNumber]
+      ,[DPANumber]
+      ,[COEDescription]
+      ,[AlternateMobileId]
+      ,[OutletId]
+      ,[SoldOnDate]
+      ,[DateCreated]
+  FROM [dbo].[FiledDiscrepancyDetails]
+  order by 1 desc
