@@ -1,4 +1,4 @@
-<img width="826" height="25" alt="image" src="https://github.com/user-attachments/assets/24eefb94-650e-4e44-b158-7609eee2920f" /><img width="700" height="145" alt="image" src="https://github.com/user-attachments/assets/0e5facf1-c25f-4f05-9cab-14a20ca7e5db" />## Test Scenario 5: Validate No Pays Tile Summary Metrics Match Database Values
+## Test Scenario 5: Validate No Pays Tile Summary Metrics Match Database Values
 ## Objective
 -To verify that the No Pays Tile summary metrics displayed in the application accurately 
      match the values calculated directly from the database for the selected date range.
